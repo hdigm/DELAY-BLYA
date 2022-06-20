@@ -1,0 +1,37 @@
+$dark-blue: #0C3C4E;
+$white-blue: #018ABE;
+$white: #FAFAFA;
+header {
+    height: 80px;
+    background: $dark-blue;
+
+    .call,
+    .logotype {
+        height: 80px;
+        user-select: none;
+    }
+
+    .nav-link {
+        color: $white;
+        transition: .6s;
+        &:hover {
+            color: $white-blue;
+        }
+    }
+
+}
+
+.call {
+    .call--btn {
+        background: $white-blue;
+        color: #FAFAFA;
+        padding: 5px 30px;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        transition: .6s;
+        &:hover {
+            opacity: .7;
+        }
+    }
+}

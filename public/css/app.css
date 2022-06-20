@@ -1,0 +1,31 @@
+header {
+  height: 80px;
+  background: #0C3C4E;
+}
+header .call,
+header .logotype {
+  height: 80px;
+  user-select: none;
+}
+header .nav-link {
+  color: #FAFAFA;
+  transition: 0.6s;
+}
+header .nav-link:hover {
+  color: #018ABE;
+}
+
+.call .call--btn {
+  background: #018ABE;
+  color: #FAFAFA;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  transition: 0.6s;
+}
+.call .call--btn:hover {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=app.css.map */
