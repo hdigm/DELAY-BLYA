@@ -2166,6 +2166,26 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+var swiper_1 = new Swiper('.swiper-1', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar'
+  },
+  breakpointsBase: 'container',
+  centeredSlides: true
+});
 
 /***/ }),
 
